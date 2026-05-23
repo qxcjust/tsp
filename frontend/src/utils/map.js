@@ -20,7 +20,7 @@ export async function initMap(containerId, options = {}) {
   try {
     if (!AMap) {
       AMap = await AMapLoader.load({
-        key: '您的高德地图Key', // 需要替换为真实的高德地图Key
+        key: 'eec215842d3511171a12b2489f1447f1', // 需要替换为真实的高德地图Key
         version: '2.0',
         plugins: ['AMap.Marker', 'AMap.Polyline', 'AMap.InfoWindow', 'AMap.Geocoder']
       })
